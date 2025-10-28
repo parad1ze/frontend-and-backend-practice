@@ -1,45 +1,84 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Новости</title>
-        <link rel="stylesheet" href="../style/styles.css">
-    </head>
-    <body>
-        <div class="page-container">
-            <div class="header">Хэдер</div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="../index.html" class="nav-link">Главная</a></li>
-                    <li class="nav-item"><a href="news.html" class="nav-link">Новости</a></li>
-                    <li class="nav-item"><a href="practices.html" class="nav-link">Практики</a></li>
-                    <li class="nav-item"><a href="goods.html" class="nav-link">Товары</a></li>
-                    <li class="nav-item"><a href="contacts.html" class="nav-link">Контакты</a></li>
-                </ul>
-            </nav>
-            <div class="content">
-                <h1 class="section-title">Новости</h1>
-                
-                <div class="experience-card news-item">
-                    <h2 class="experience-title">Колпачок - В С Ё!</h2>
-                    <p><strong>Дата публикации:</strong> 24.09.2025 | <strong>Автор:</strong> Алексей Маслов</p>
-                    <p class="experience-desc">На матанализе колпачок Константинова Антона пал в неравно бою.</p>
-                </div>
-                
-                <div class="experience-card news-item">
-                    <h2 class="experience-title">Багеты - В С Ё!</h2>
-                    <p><strong>Дата публикации:</strong> 25.09.2025 | <strong>Автор:</strong> Повар Поваров</p>
-                    <p class="experience-desc">Вчера в буфете закончились багеты с курицей.</p>
-                </div>
-                
-                <div class="experience-card news-item">
-                    <h2 class="experience-title">Яков Зайнуллин - В С Ё!</h2>
-                    <p><strong>Дата публикации:</strong> 22.09.2025 | <strong>Автор:</strong> Соня Мармеладова</p>
-                    <p class="experience-desc">В связи с тем, что Яков Зайнуллин бросил курить, спрос на табачные изделия упал на 10%.</p>
-                </div>
-            </div>
-            <div class="footer">Футер</div>
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <header class="header">
+            <h1>Новости</h1>
+        </header>
+        
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="../index.html" class="nav-link">Главная</a></li>
+                <li class="nav-item"><a href="news.html" class="nav-link">Новости</a></li>
+                <li class="nav-item"><a href="practices.html" class="nav-link">Практики</a></li>
+                <li class="nav-item"><a href="goods.html" class="nav-link">Товары</a></li>
+                <li class="nav-item"><a href="contacts.html" class="nav-link">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <section class="news-container">
+                <article class="news-card">
+                    <h2 class="news-title">В Москве открылся новый технопарк</h2>
+                    <p class="news-meta">Опубликовано: 15 декабря 2024 | Автор: Иван Петров</p>
+                    <p class="news-text">
+                        В столице состоялось торжественное открытие современного технопарка "Инновация", 
+                        который станет домом для более чем 50 стартапов в сфере IT и биотехнологий. 
+                        Проект реализован при поддержке городских властей и частных инвесторов.
+                    </p>
+                </article>
+
+                <article class="news-card">
+                    <h2 class="news-title">Ученые разработали новый метод обработки данных</h2>
+                    <p class="news-meta">Опубликовано: 12 декабря 2024 | Автор: Мария Сидорова</p>
+                    <p class="news-text">
+                        Российские исследователи представили инновационный алгоритм машинного обучения, 
+                        который ускоряет обработку больших данных в 3 раза. Технология уже вызвала интерес 
+                        у крупных IT-компаний и научных центров по всему миру.
+                    </p>
+                </article>
+
+                <article class="news-card">
+                    <h2 class="news-title">Конференция по веб-разработке собрала рекордное число участников</h2>
+                    <p class="news-meta">Опубликовано: 8 декабря 2024 | Автор: Алексей Козлов</p>
+                    <p class="news-text">
+                        Более 2000 специалистов со всей страны приняли участие в ежегодной конференции 
+                        "WebDev Conf 2024". Мероприятие стало площадкой для обмена опытом и презентации 
+                        новых технологий в области фронтенд и бэкенд разработки.
+                    </p>
+                </article>
+
+                <article class="news-card">
+                    <h2 class="news-title">Запущена новая образовательная платформа для программистов</h2>
+                    <p class="news-meta">Опубликовано: 5 декабря 2024 | Автор: Елена Васильева</p>
+                    <p class="news-text">
+                        Стартовал проект "CodeMaster" - интерактивная платформа для обучения 
+                        программированию с нуля. Система включает в себя практические задания, 
+                        менторскую поддержку и возможность трудоустройства для лучших выпускников.
+                    </p>
+                </article>
+
+                <article class="news-card">
+                    <h2 class="news-title">ИИ помогает в борьбе с киберпреступностью</h2>
+                    <p class="news-meta">Опубликовано: 1 декабря 2024 | Автор: Дмитрий Николаев</p>
+                    <p class="news-text">
+                        Компания "КиберЗащита" внедрила систему искусственного интеллекта, 
+                        которая способна предсказывать и предотвращать кибератаки с точностью 94%. 
+                        Технология уже защищает данные более 100 крупных предприятий.
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2025 Все права защищены. Новостной портал</p>
+        </footer>
+    </div>
+</body>
 </html>
